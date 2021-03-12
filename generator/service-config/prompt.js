@@ -11,5 +11,5 @@ module.exports = [
     type: "input",
     name: "npm_package_description",
     message: "New service description: "
-  },
+  }
 ];
