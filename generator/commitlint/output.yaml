@@ -1,0 +1,7 @@
+version: "1.0"
+
+folder: "./"
+files:
+  - commitlint.config.js
+  - package.json
+  - package-lock.json
