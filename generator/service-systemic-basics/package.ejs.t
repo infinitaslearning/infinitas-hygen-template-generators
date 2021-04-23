@@ -1,6 +1,6 @@
 ---
-to: app/package.json
-sh: cd app && npm install
+to: package.json
+sh: npm install
 ---
 {
   "name": "<%= h.inflection.dasherize(npm_package_name) %>",

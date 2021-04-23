@@ -1,5 +1,5 @@
 ---
-to: app/config/default.js
+to: config/default.js
 ---
 
 module.exports = {

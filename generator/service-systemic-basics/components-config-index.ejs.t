@@ -1,5 +1,5 @@
 ---
-to: app/components/config/index.js
+to: components/config/index.js
 ---
 const System = require('systemic');
 const confabulous = require('./confabulous');

@@ -1,5 +1,5 @@
 ---
-to: app/test/mocks/authSystem.js
+to: test/mocks/authSystem.js
 ---
 const debug = require('debug')('mocks:auth');
 

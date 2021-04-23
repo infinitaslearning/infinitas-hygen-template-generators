@@ -1,5 +1,5 @@
 ---
-to: app/jest.config.js
+to: jest.config.js
 ---
 
 const { defaults } = require('jest-config');

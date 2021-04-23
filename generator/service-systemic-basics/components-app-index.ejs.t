@@ -1,5 +1,5 @@
 ---
-to: app/components/app/index.js
+to: components/index.js
 ---
 const System = require('systemic');
 const optional = require('optional');

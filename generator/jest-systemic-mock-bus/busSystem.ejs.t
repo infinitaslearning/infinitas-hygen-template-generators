@@ -1,5 +1,5 @@
 ---
-to: app/test/mocks/busSystem.js
+to: test/mocks/busSystem.js
 ---
 const { spy } = require('sinon');
 

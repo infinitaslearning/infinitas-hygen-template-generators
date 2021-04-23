@@ -1,5 +1,5 @@
 ---
-to: app/test/.eslintrc
+to: test/.eslintrc
 ---
 {
   "env": {

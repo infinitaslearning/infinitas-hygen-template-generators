@@ -1,5 +1,5 @@
 ---
-to: app/test/service.spec.js
+to: test/service.spec.js
 ---
 // Modules
 const { OK } = require('http-status');

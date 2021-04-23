@@ -1,4 +1,4 @@
 ---
-to: app/.nvmrc
+to: .nvmrc
 ---
 <%= npm_package_version %>

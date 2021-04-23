@@ -1,5 +1,5 @@
 ---
-to: app/.eslintignore
+to: .eslintignore
 ---
 coverage/
-generators/app/templates/
+generators/templates/

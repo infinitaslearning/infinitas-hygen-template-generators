@@ -1,5 +1,5 @@
 ---
-to: app/test/test-system.js
+to: test/test-system.js
 ---
 const system = require('../system');
 

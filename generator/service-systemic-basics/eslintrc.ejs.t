@@ -1,5 +1,5 @@
 ---
-to: app/.eslintrc.json
+to: .eslintrc.json
 ---
 {
 	"extends": "airbnb-base",

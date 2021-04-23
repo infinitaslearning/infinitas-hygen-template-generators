@@ -1,5 +1,5 @@
 ---
-to: app/docker-compose.yml
+to: docker-compose.yml
 ---
 version: '3.1'
 

@@ -1,5 +1,5 @@
 ---
-to: app/test/mocks/bus.js
+to: test/mocks/bus.js
 ---
 const validator = require('@infinitas/azure-bus-validator');
 const debug = require('debug')('mocks:bus');
