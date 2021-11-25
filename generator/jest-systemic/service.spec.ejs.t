@@ -2,7 +2,7 @@
 to: test/service.spec.js
 ---
 // Modules
-const { OK } = require('http-status');
+const { OK } = require('http-status-codes');
 const supertest = require('supertest');
 // Libs
 const system = require('../system');
