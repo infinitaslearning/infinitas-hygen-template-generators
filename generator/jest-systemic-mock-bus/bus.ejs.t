@@ -1,5 +1,6 @@
 ---
 to: test/mocks/bus.js
+sh: npm install --save @infinitas/azure-bus-validator
 ---
 const validator = require('@infinitas/azure-bus-validator');
 const debug = require('debug')('mocks:bus');
