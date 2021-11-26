@@ -39,6 +39,10 @@ sh: npm install
     "supertest": "^6.1.3"
   },
   "dependencies": {
+    "@he-learning/module-he-auth": "^1.0.141294",
+    "@he-learning/service-he-common": "^1.0.113185",
+    "@infinitas/azure-bus-validator": "^1.0.26111",
+    "@infinitas/dynamic-debug": "^1.0.109966",
     "error-handler-module": "^1.0.6",
     "dotenv": "^10.0.0",
     "http-status-codes": "^2.1.4",
