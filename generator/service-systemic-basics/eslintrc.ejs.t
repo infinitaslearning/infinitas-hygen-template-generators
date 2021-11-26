@@ -6,15 +6,16 @@ to: .eslintrc.json
 	"parserOptions": {
 		"sourceType": "module",
 		"allowImportExportEverywhere": false,
-		"ecmaVersion": 2018
+		"ecmaVersion": 2021
 	},
 	"env": {
-		"mocha": true,
+		"jest": true,
 		"es6": true,
 		"node": true
 	},
+	"plugins": ["jest"],
 	"rules": {
-		"indent": [2, "tab"],
+		"indent": 2,
 		"no-tabs": 0,
 		"max-len": 0,
 		"no-underscore-dangle": 0,
