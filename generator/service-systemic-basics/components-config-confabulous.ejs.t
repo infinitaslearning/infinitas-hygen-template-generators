@@ -1,3 +1,6 @@
+---
+to: components/config/confabulous.js
+---
 const path = require('path');
 const Conf = require('confabulous');
 
