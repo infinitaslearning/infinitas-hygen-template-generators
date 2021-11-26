@@ -24,6 +24,7 @@ sh: npm install
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
+    "@guidesmiths/license-checker": "^1.0.5",
     "chai": "^4.2.0",
     "eslint": "^7.19.0",
     "eslint-config-airbnb-base": "^14.2.1",
