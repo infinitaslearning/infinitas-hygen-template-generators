@@ -39,6 +39,7 @@ sh: npm install
     "supertest": "^6.1.3"
   },
   "dependencies": {
+    "error-handler-module": "^1.0.6",
     "dotenv": "^10.0.0",
     "http-status-codes": "^2.1.4",
     "on-headers": "^1.0.2",

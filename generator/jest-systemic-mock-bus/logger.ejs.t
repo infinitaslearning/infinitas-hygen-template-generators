@@ -1,5 +1,5 @@
 ---
-to: test/mocks/checkMessage.js
+to: test/mocks/busSystem/logger.js
 ---
 const { spy } = require('sinon');
 const debug = require('debug')('mocks:bus');

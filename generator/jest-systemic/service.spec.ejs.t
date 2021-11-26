@@ -1,5 +1,5 @@
 ---
-to: test/service.spec.js
+to: test/service.test.js
 ---
 // Modules
 const { OK } = require('http-status-codes');
