@@ -1,7 +1,7 @@
 ---
 to: components/routes/index.js
 ---
-const { join } = require('path');
+// const { join } = require('path');
 const Systemic = require('systemic');
 
 // const apiRoutes = require('require-all')(join(__dirname, 'api'));

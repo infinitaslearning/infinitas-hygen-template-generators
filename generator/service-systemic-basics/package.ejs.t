@@ -57,6 +57,7 @@ sh: npm install
     "confabulous": "^1.7.0",
     "cross-env": "^7.0.3",
     "debug": "^4.3.1",
+    "express": "^4.17.1",
     "express-jsdoc-swagger": "^1.3.1",
     "hogan.js": "^3.0.2",
     "optimist": "^0.6.1",
