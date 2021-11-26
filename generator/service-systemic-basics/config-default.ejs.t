@@ -7,8 +7,25 @@ module.exports = {
     host: '0.0.0.0',
     port: 4000,
   },
+  auth: {
+    secret: process.env.JWT_SECRET || 'secreto',
+    options: {
+      expiresIn: process.env.JWT_SECRET_EXPIRATION || '4h',
+    },
+  },
   routes: {
-    admin: {
+    init: {
+      maxPayloadSize: '1mb',
+      generatedDocs: [
+        {
+          path: '/docs/bus',
+          srcFolder: 'asyncapi',
+        },
+        {
+          path: '/docs/jsdoc',
+          srcFolder: 'jsdoc',
+        },
+      ],
       swaggerOptions: {
         info: {
           description: 'Documentation for <%= h.inflection.titleize(npm_package_name) %>',

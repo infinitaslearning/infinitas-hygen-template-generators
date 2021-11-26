@@ -43,6 +43,8 @@ sh: npm install
     "@he-learning/service-he-common": "^1.0.113185",
     "@infinitas/azure-bus-validator": "^1.0.26111",
     "@infinitas/dynamic-debug": "^1.0.109966",
+    "helmet": "^4.4.1",
+    "express-oas-validator": "^2.0.0",
     "error-handler-module": "^1.0.6",
     "dotenv": "^10.0.0",
     "http-status-codes": "^2.1.4",
