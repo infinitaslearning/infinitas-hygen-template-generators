@@ -5,7 +5,7 @@ module.exports = [
   {
     type: "input",
     name: "npm_package_name",
-    message: "What's the name of your package? Ex: (service he hst results api)"
+    message: "What's the name of your package? Ex: (My service api)"
   },
   {
     type: "input",

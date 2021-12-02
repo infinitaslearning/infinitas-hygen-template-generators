@@ -17,7 +17,6 @@ sh: npm install
     "lint": "eslint .",
     "license:checker": "npx @guidesmiths/license-checker --outputFileName licence-report --failOn AGPL,GPL",
     "docker:compose:up": "docker-compose --file docker-compose.yml pull && docker-compose --file docker-compose.yml up -d --force-recreate",
-    "docker:compose:up:force": "docker stop service-he-hst-results-api_db_1 && docker rm service-he-hst-results-api_db_1 && npm run docker:compose:up && npm t",
     "postinstall": "npm run license:checker",
     "manifest": "node_modules/make-manifest/bin/make-manifest"
   },

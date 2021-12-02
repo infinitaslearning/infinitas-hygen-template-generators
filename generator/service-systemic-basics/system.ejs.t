@@ -9,7 +9,7 @@ const { join } = require('path');
 // Use dotenv to allow retrieving env variables from local .env file
 require('dotenv').config();
 
-module.exports = () => new Systemic({ name: 'service-he-hst-content-api' })
+module.exports = () => new Systemic({ name: '<%= npm_package_description %>' })
 // metrics need initialising before systems related to connections start
   .add('metrics', initMetrics())
   .dependsOn('config')
